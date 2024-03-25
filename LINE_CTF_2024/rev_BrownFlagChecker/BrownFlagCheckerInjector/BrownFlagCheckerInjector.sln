@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BrownFlagCheckerInjector", "BrownFlagCheckerInjector\BrownFlagCheckerInjector.vcxproj", "{C3ECD5B3-123C-41B3-A99C-966BAB6F9840}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2C5CF676-3AFF-4D87-8DB7-F0A1845BA990} = {2C5CF676-3AFF-4D87-8DB7-F0A1845BA990}
+		{BDAEC464-BF30-46F9-B44F-99EEE4382928} = {BDAEC464-BF30-46F9-B44F-99EEE4382928}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CommonLib", "CommonLib\CommonLib.vcxproj", "{2C5CF676-3AFF-4D87-8DB7-F0A1845BA990}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "BrownFlagCheckerHook", "BrownFlagCheckerHook\BrownFlagCheckerHook.vcxproj", "{BDAEC464-BF30-46F9-B44F-99EEE4382928}"
+	ProjectSection(ProjectDependencies) = postProject
+		{2C5CF676-3AFF-4D87-8DB7-F0A1845BA990} = {2C5CF676-3AFF-4D87-8DB7-F0A1845BA990}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C3ECD5B3-123C-41B3-A99C-966BAB6F9840}.Debug|x64.ActiveCfg = Debug|x64
+		{C3ECD5B3-123C-41B3-A99C-966BAB6F9840}.Debug|x64.Build.0 = Debug|x64
+		{C3ECD5B3-123C-41B3-A99C-966BAB6F9840}.Debug|x86.ActiveCfg = Debug|Win32
+		{C3ECD5B3-123C-41B3-A99C-966BAB6F9840}.Debug|x86.Build.0 = Debug|Win32
+		{C3ECD5B3-123C-41B3-A99C-966BAB6F9840}.Release|x64.ActiveCfg = Release|x64
+		{C3ECD5B3-123C-41B3-A99C-966BAB6F9840}.Release|x64.Build.0 = Release|x64
+		{C3ECD5B3-123C-41B3-A99C-966BAB6F9840}.Release|x86.ActiveCfg = Release|Win32
+		{C3ECD5B3-123C-41B3-A99C-966BAB6F9840}.Release|x86.Build.0 = Release|Win32
+		{2C5CF676-3AFF-4D87-8DB7-F0A1845BA990}.Debug|x64.ActiveCfg = Debug|x64
+		{2C5CF676-3AFF-4D87-8DB7-F0A1845BA990}.Debug|x64.Build.0 = Debug|x64
+		{2C5CF676-3AFF-4D87-8DB7-F0A1845BA990}.Debug|x86.ActiveCfg = Debug|Win32
+		{2C5CF676-3AFF-4D87-8DB7-F0A1845BA990}.Debug|x86.Build.0 = Debug|Win32
+		{2C5CF676-3AFF-4D87-8DB7-F0A1845BA990}.Release|x64.ActiveCfg = Release|x64
+		{2C5CF676-3AFF-4D87-8DB7-F0A1845BA990}.Release|x64.Build.0 = Release|x64
+		{2C5CF676-3AFF-4D87-8DB7-F0A1845BA990}.Release|x86.ActiveCfg = Release|Win32
+		{2C5CF676-3AFF-4D87-8DB7-F0A1845BA990}.Release|x86.Build.0 = Release|Win32
+		{BDAEC464-BF30-46F9-B44F-99EEE4382928}.Debug|x64.ActiveCfg = Debug|x64
+		{BDAEC464-BF30-46F9-B44F-99EEE4382928}.Debug|x64.Build.0 = Debug|x64
+		{BDAEC464-BF30-46F9-B44F-99EEE4382928}.Debug|x86.ActiveCfg = Debug|Win32
+		{BDAEC464-BF30-46F9-B44F-99EEE4382928}.Debug|x86.Build.0 = Debug|Win32
+		{BDAEC464-BF30-46F9-B44F-99EEE4382928}.Release|x64.ActiveCfg = Release|x64
+		{BDAEC464-BF30-46F9-B44F-99EEE4382928}.Release|x64.Build.0 = Release|x64
+		{BDAEC464-BF30-46F9-B44F-99EEE4382928}.Release|x86.ActiveCfg = Release|Win32
+		{BDAEC464-BF30-46F9-B44F-99EEE4382928}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4D34EAB4-54CA-4139-A1BC-EEFB0A2F3180}
+	EndGlobalSection
+EndGlobal
