@@ -1,4 +1,4 @@
-# LINE CTF 2024
+# ACSC 2024 Quals
 write-up: [ACSC 2024 Quals write-up - プログラム系統備忘録ブログ](https://tan.hatenadiary.jp/entry/2024/03/31/210352)
 
 ## 使用ソフト
